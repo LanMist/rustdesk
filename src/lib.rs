@@ -1,4 +1,4 @@
-rmod keyboard;
+mod keyboard;
 /// cbindgen:ignore
 pub mod platform;
 #[cfg(not(any(target_os = "android", target_os = "ios")))]
